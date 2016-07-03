@@ -48,7 +48,7 @@ class InlinequeryCommand extends SystemCommand
 @lolcatzbot Text
 
 in any chat :)
-Written by Daniil Gentili (@danogentili, https://daniil.it). Check out my other bots: @video_dl_bot, @mklwp_bot, @caption_ai_bot, @cowsaysbot, @cowthinksbot, @figletsbot, @lolcatzbot, @filtersbot, @id3bot, @pwrtelegrambot!
+Written by Daniil Gentili (@danogentili, https://daniil.it). Check out my other bots: @video_dl_bot, @mklwp_bot, @caption_ai_bot, @cowsaysbot, @cowthinksbot, @figletsbot, @lolcatzbot, @filtersbot, @id3bot, @pwrtelegrambot, @audiokeychainbot!
 Source code @ http://github.com/danog/lolcatzbot', 'parse_mode' => 'Markdown' ] ]);
 	} else {
 		$url = shell_exec('export LANG=it_IT.UTF-8;export LC_ALL=it_IT.UTF-8;txt='.escapeshellarg($query).'; echo "$txt" 2>&1 | /usr/games/lolcat -F 10 -f 2>&1 | ansi-to-html 2>&1 | sed \'s/^/<style>span { font-size: 400%; }<\/style>/g\' | wkhtmltoimage --width $(echo "$txt" | wc -L) --quality 100 -q -f jpg - - | curl -T - chunk.io | tr -d "\n"') . '.jpg';

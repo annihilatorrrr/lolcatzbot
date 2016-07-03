@@ -64,9 +64,8 @@ class GenericmessageCommand extends SystemCommand
 @lolcatzbot Text
 
 in any chat :)
-Written by Daniil Gentili (@danogentili, https://daniil.it). Check out my other bots: @video_dl_bot, @mklwp_bot, @caption_ai_bot, @cowsaysbot, @cowthinksbot, @figletsbot, @lolcatzbot, @filtersbot, @id3bot, @pwrtelegrambot!
-Source code @ http://github.com/danog/lolcatzbot',
-		'parse_mode' => "Markdown",
+Written by Daniil Gentili (@danogentili, https://daniil.it). Check out my other bots: @video_dl_bot, @mklwp_bot, @caption_ai_bot, @cowsaysbot, @cowthinksbot, @figletsbot, @lolcatzbot, @filtersbot, @id3bot, @pwrtelegrambot, @audiokeychainbot!
+Source code @ https://github.com/danog/lolcatzbot',
         ];
 
         return Request::sendMessage($data);
