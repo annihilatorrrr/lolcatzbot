@@ -1,6 +1,6 @@
 # lolcatzbot
 
-Repo of the [lolcatzbot](https://telegram.me/cowsaysbot).
+Repo of the [lolcatzbot](https://telegram.me/lolcatzbot).
 
 Licensed under GPLv3.
 
